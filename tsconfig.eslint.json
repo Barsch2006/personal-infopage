@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+      ".eslintrc.cjs",
+      "env.d.ts",
+      "src",
+      "src/**/*.ts",
+      "src/*.ts",
+      "src/**/*.d.ts",
+      "src/*.d.ts",
+      "public/index.js",
+      "vite.config.ts"
+  ]
+}
