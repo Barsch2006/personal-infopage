@@ -58,7 +58,6 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  background-color: #121212;
   gap: 14px;
 }
 
