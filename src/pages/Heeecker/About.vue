@@ -103,20 +103,18 @@ export default {
             <v-timeline-item dot-color="primary" size="small">
                 <v-card>
                     <v-card-title>
-                        2021
+                        Beginn Kooperation mit Christian
                     </v-card-title>
                     <v-card-subtitle>
-                        Lernen von Java
+                        06.2022
                     </v-card-subtitle>
                     <v-card-text>
                         <v-expansion-panels>
                             <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
                                 <v-expansion-panel-text>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat harum deleniti quos iste
-                                    explicabo debitis vitae sit, soluta accusamus fugit corrupti quod. Optio ipsum quae ex
-                                    aspernatur, facere modi veritatis excepturi incidunt eaque. Exercitationem porro
-                                    laudantium quaerat explicabo error, nihil quisquam deserunt hic repellat, ex corporis
-                                    dolores soluta vero reiciendis.
+                                    Bei der Projektwoche der Schule im Jahr 2022 haben Christian und ich zusammengefunden
+                                    und der Beginn einer Menge Projekte hat mit der Planung und Entwicklung des "SV
+                                    Bildschirms" begonnnen.
                                 </v-expansion-panel-text>
                             </v-expansion-panel>
                         </v-expansion-panels>
@@ -126,20 +124,119 @@ export default {
             <v-timeline-item dot-color="primary" size="small">
                 <v-card>
                     <v-card-title>
-                        2021
+                        Unterricht Informatik 9
                     </v-card-title>
                     <v-card-subtitle>
-                        Lernen von Java
+                        08.2022 - 01.2023
                     </v-card-subtitle>
                     <v-card-text>
                         <v-expansion-panels>
                             <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
                                 <v-expansion-panel-text>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat harum deleniti quos iste
-                                    explicabo debitis vitae sit, soluta accusamus fugit corrupti quod. Optio ipsum quae ex
-                                    aspernatur, facere modi veritatis excepturi incidunt eaque. Exercitationem porro
-                                    laudantium quaerat explicabo error, nihil quisquam deserunt hic repellat, ex corporis
-                                    dolores soluta vero reiciendis.
+                                    Im Rahmen eines Pilotprojekts meines Informatik Lehrers war ich als "Schülerexperte"
+                                    eine Lehrkraft für meine Mitschüler. Ich habe ihnen die Grundlagen der Programmierung
+                                    mittels SmallBasic beigebracht und sie bei ihren Projekten unterstützt.
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        ATec Start
+                    </v-card-title>
+                    <v-card-subtitle>
+                        11.2022
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    Das Projekt der Digitalisierung der Anmeldung von Veranstaltungen der Aula Technik AG
+                                    (kurz: ATec) hat begonnen.
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        FloBot Start, Lernen von TS
+                    </v-card-title>
+                    <v-card-subtitle>
+                        11.2022
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    Mit dem DiscordBot "FloBot", welchen ich gemeinsam mit Christian und einigen Mitglieder
+                                    von Florian Dalwigks Discord Server entwickelt habe, habe ich angefangen TypeScript zu
+                                    lernen.
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        Praktikum doIT
+                    </v-card-title>
+                    <v-card-subtitle>
+                        01.2023
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    Ich habe ein einwöchiges Schülerpraktikum bei doIT absolviert. Dort habe ich VMs
+                                    aufgesetzt.
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        Auslandsaufenthalt Kanada
+                    </v-card-title>
+                    <v-card-subtitle>
+                        02.2023 - 06.2023
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    Ich war in Kanada für ein halbes Jahr und hatte sehr viel Langeweile. Christian hat mich
+                                    dabei unterstützt.
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        DolphinSchool Start
+                    </v-card-title>
+                    <v-card-subtitle>
+                        04.2023
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    Start der Entwicklung der DolphinSchool, einer Plattform für Schüler und Lehrer, um das
+                                    alte Program "Edunite" zu ersten. Es ist auf Benutzerfreundlichkeit ausgelegt.
                                 </v-expansion-panel-text>
                             </v-expansion-panel>
                         </v-expansion-panels>
@@ -198,5 +295,4 @@ export default {
 div,
 nav {
     margin-bottom: 10px;
-}
-</style>
+}</style>
