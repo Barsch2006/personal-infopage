@@ -1,11 +1,15 @@
 <script lang="ts">
-export default {
+import Impressum from './Impressum.vue';
 
+export default {
+    components: {
+        Impressum
+    }
 };
 </script>
 
 <template>
-    Kontakt
+    <Impressum />
 </template>
 
 <style scoped></style>
