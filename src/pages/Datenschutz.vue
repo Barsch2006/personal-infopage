@@ -38,7 +38,10 @@ export default {
 
                 <v-card-text>
                     Sofern nicht anders gekenntzeichnet unterliegen alle Medien, sowohl in Bild als auch Schrift dem
-                    Betreiber der Website.
+                    Betreiber der Website. Eine Vervielfältigung oder Verwendung der Medien in anderen elektronischen oder
+                    gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Betreibers nicht gestattet. Dies gilt
+                    auch für die Verwendung der Medien in anderen Webseiten. Die Verwendung der Medien in anderen Webseiten
+                    ist nur mit ausdrücklicher Zustimmung des Betreibers gestattet.
                 </v-card-text>
             </v-card>
         </v-list-item>
@@ -61,7 +64,8 @@ export default {
                             ausdrücklich nicht erwünscht, es sei denn, der Anbieter hat zuvor seine schriftliche
                             Einwilligung erteilt oder es besteht bereits ein geschäftlicher Kontakt. Der Anbieter und alle
                             auf dieser Website genannten Personen widersprechen hiermit jeder kommerziellen Verwendung und
-                            Weitergabe ihrer Daten.
+                            Weitergabe ihrer Daten. Die Nutzung der Kontaktdaten durch Dritte zur gewerblichen Nutzung ist
+                            ausdrücklich nicht erwünscht.
                         </p>
                     </article>
                     <article>
@@ -75,10 +79,21 @@ export default {
                     </article>
                     <article>
                         <h3>
-                            Einbettungen
+                            Dritte
                         </h3>
                         <p>
-                            Es werden Daten von GitHub als Bilder eingebettet, um die Profilbilder der Entwickler anzuzeigen.
+                            Es werden Daten von GitHub als Bilder eingebettet, um die Profilbilder der Entwickler
+                            anzuzeigen.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>
+                            Zustimmung
+                        </h3>
+                        <p>
+                            Durch die Nutzung dieser Website stimmt der Benutzer der Verarbeitung der über ihn/ sie erhobenen
+                            Daten durch
+                            GitHub in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck zu.
                         </p>
                     </article>
                 </v-card-text>
