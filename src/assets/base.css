@@ -15,12 +15,6 @@ body {
   box-sizing: border-box;
 }
 
-footer {
-  min-width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
 a {
   color: var(--v-theme-primary);
 }

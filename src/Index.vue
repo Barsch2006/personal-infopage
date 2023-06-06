@@ -32,52 +32,27 @@ export default {
     </v-main>
 
     <v-footer>
-      <div id="d1">
-        <a href="/impressum">Impressum</a>
-        <a href="/datenschutz">Datenschutz</a>
-        <a href="https://pictogrammers.com/library/mdi/">mdi-icons</a>
-      </div>
-      <div dir="d2">
-        <a href="/">Home</a>
-        <a href="/heeecker">heeecker</a>
-       <a href="/christian">Christian</a>
-      </div>
+      <a href="/impressum">Impressum</a>
+      <a href="/datenschutz">Datenschutz</a>
     </v-footer>
   </v-app>
 </template>
 
-<style scoped>
+<style>
 .v-main {
   min-height: 100vh;
 }
 
-footer {
-  padding: 14px;
-  box-sizing: border-box;
+.v-footer {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
-  gap: 14px;
-}
-
-footer * {
-  text-decoration: none;
-}
-
-footer div {
-  display: flex;
+  align-items: center;
+  padding-top: 14px;
   flex-direction: column;
-  justify-content: flex-start;
-  gap: 4px;
 }
 
-footer div#d1 {
-  align-items: flex-end;
-}
-
-footer div#d2 {
-  align-items: flex-start;
+.v-footer a {
+  text-decoration: none;
 }
 
 footer div a:hover {
