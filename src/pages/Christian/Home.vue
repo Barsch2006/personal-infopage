@@ -21,7 +21,6 @@ export default {
 <template>
     <WelcomeSlide title="Christian.sh" subtitle="Christian" img="https://avatars.githubusercontent.com/u/109520303?v=4">
         - Hobby-Programmierer<br />
-        - 16 Jahre alt <br />
         - Aula Techniker <br />
         - Schüler <br />
     </WelcomeSlide>

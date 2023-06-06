@@ -1,5 +1,10 @@
 <script lang="ts">
+import MatrixCanv from '@/components/MatrixCanv.vue';
+
 export default {
+    components: {
+        MatrixCanv
+    },
     data() {
         return {
             innerWidth: window.innerWidth,
@@ -17,7 +22,7 @@ export default {
 <template>
     <v-sheet color="background" style="padding: 10px;">
         <v-card color="background" elevation="0">
-            <v-parallax height="400" src="/img/code.jpeg" />
+            <MatrixCanv :height="300" />
             <v-card-title style="width: 100%; display: inline-flex; align-items: center; justify-content:space-between;">
                 heeecker
                 <v-card-actions style="padding-left: 10px; padding-right: 10px;">
@@ -31,7 +36,7 @@ export default {
             </v-card-subtitle>
             <v-card-text style="font-size: 18px;">
                 Hallo. <br>
-                Ich bin Filip, 15 Jahre alt und komme aus Deutschland - Bin aktuell aber in Kanada. <br>
+                Ich bin Filip.<br>
             </v-card-text>
             <v-card-item>
                 <v-item-group>

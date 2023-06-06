@@ -21,7 +21,6 @@ export default {
 <template>
     <WelcomeSlide title="heeecker" subtitle="Filip" img="https://avatars.githubusercontent.com/u/89743412?v=4">
         - Hobby-Programmierer<br />
-        - 16 Jahre alt <br />
         - Aula Techniker <br />
         - Schüler <br />
     </WelcomeSlide>
