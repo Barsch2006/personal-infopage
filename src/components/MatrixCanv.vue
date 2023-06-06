@@ -9,6 +9,7 @@ export default {
     mounted() {
         // matrix animation for the canvas
         const canvas = this.$refs.matrixCanvas as HTMLCanvasElement;
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         const context = canvas.getContext('2d')!;
         const height = canvas.height = this.height;
         const width = canvas.width = window.innerWidth;
