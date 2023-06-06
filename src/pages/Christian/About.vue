@@ -258,6 +258,68 @@ export default {
                     </v-card-text>
                 </v-card>
             </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        (Gast-) Unterrichtsstunden Informatik
+                    </v-card-title>
+                    <v-card-subtitle>
+                        11.2022 - 12.2022
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    <article>
+                                        <p>
+                                            In meinem WPU (Wahlpflichunterricht) Informatik habe ich zunächst in 2 folgenden
+                                            Doppelstunden (über 2 Wochen) meinen Mitschülern HTML und CSS Grundlagen
+                                            beigebracht. In der 2. Doppelstunde habe ich sie desweiteren ihre Websiten auf
+                                            einen lokal-gehosteten Server auf einem SchulPC hochladen lassen. Bedauerlicher
+                                            Weise hat die Speicherung der HTTP-Daten in eine SQLite Datenbank nicht
+                                            funktioniert. Aus diesem Grund habe ich anschließend meinen Mitschülern trotzdem
+                                            versucht das HTTP-Protokol Nahe zu bringen. <br>
+                                            In der 3. Doppelstunde, einen Monat später, habe ich vorgeschlagen die
+                                            Grundlagen von C++ für die Arduino programmierung auf TinkerCAD zu erklären.
+                                            Dies wurde jedoch nicht über mehrere Wochen fortgesetzt, da sich meine
+                                            Informatiklehrkraft für die Codeblöcke von TinkerCAD (ähnlich wie Scratch)
+                                            entschieden hat und ich diese nicht unterrichten wollte.
+                                        </p>
+                                    </article>
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
+            <v-timeline-item dot-color="primary" size="small">
+                <v-card>
+                    <v-card-title>
+                        Lernen von Vue.js und Vuetify
+                    </v-card-title>
+                    <v-card-subtitle>
+                        05-2023
+                    </v-card-subtitle>
+                    <v-card-text>
+                        <v-expansion-panels>
+                            <v-expansion-panel elevation="0" hide-actions title="Mehr Informationen">
+                                <v-expansion-panel-text>
+                                    <article>
+                                        <p>
+                                            Durch das Projekt <i>DolphinSchool</i>, welches von mir und Filip ins Leben
+                                            gerufen wurde. Als Frontend haben wir für Vue.js in Kombination mit Vuetify
+                                            entschieden. <br>
+                                            Da wir beide bisher noch nicht so viel mit Vue.js und Vuetify gearbeitet haben,
+                                            aber bereits Erfahrungen mit JavaScript und TypeScript hatten, war es für uns
+                                            relativ einfach in das Framework einzusteigen.
+                                        </p>
+                                    </article>
+                                </v-expansion-panel-text>
+                            </v-expansion-panel>
+                        </v-expansion-panels>
+                    </v-card-text>
+                </v-card>
+            </v-timeline-item>
         </v-timeline>
 
         <div style="flex-direction: row; align-items: center; display: flex;">
