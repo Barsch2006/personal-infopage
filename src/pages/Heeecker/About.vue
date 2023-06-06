@@ -141,12 +141,30 @@ export default {
                 </v-card>
             </v-timeline-item>
         </v-timeline>
+        <div style="flex-direction: row; align-items: center; display: flex;">
+            <v-icon>mdi-info</v-icon>
+            <p>
+                * geschätztes Datum
+            </p>
+        </div>
     </v-sheet>
 </template>
 
 <style scoped>
+.v-card-title,
+.v-card-subtitle,
+* {
+    white-space: normal;
+}
+
 .v-card-subtitle {
     margin-top: -14px;
     font-size: 1em;
+}
+
+.v-expansion-panel-text article,
+div,
+nav {
+    margin-bottom: 10px;
 }
 </style>

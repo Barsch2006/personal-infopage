@@ -321,7 +321,6 @@ export default {
                 </v-card>
             </v-timeline-item>
         </v-timeline>
-
         <div style="flex-direction: row; align-items: center; display: flex;">
             <v-icon>mdi-info</v-icon>
             <p>
