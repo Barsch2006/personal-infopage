@@ -1,14 +1,21 @@
 interface IProjectsPreview {
+    id: number;
     title: string;
     description: string;
     frameworks: Framework[];
     url?: string;
     finished: boolean;
     moreInfo: MoreInfo[];
+    contributors: IContributor[];
 }
 
 type MoreInfoTypes = 'img' | 'text';
 type Framework = typeof frameworks[number];
+
+interface IContributor {
+    name: string;
+    url: string;
+}
 
 interface MoreInfo {
     text?: string;
@@ -41,6 +48,25 @@ const frameworks = [
 
 const projects: IProjectsPreview[] = [
     {
+        id: 0,
+        contributors: [
+            {
+                name: 'heeecker',
+                url: 'https://github.com/filip326'
+            },
+            {
+                name: 'Christian.sh',
+                url: 'https://github.com/Barsch2006'
+            },
+            {
+                name: 'Mickhat',
+                url: 'https://github.com/Mickhat'
+            },
+            {
+                name: 'oglimmer',
+                url: 'https://github.com/oglimmer'
+            }
+        ],
         title: 'FloBot',
         description: 'Moderation Bot in TypeScript',
         frameworks: ['Node.js', 'SQLite', 'TypeScript'],
@@ -55,6 +81,17 @@ const projects: IProjectsPreview[] = [
         ]
     },
     {
+        id: 1,
+        contributors: [
+            {
+                name: 'heeecker',
+                url: 'https://github.com/filip326'
+            },
+            {
+                name: 'Christian.sh',
+                url: 'https://github.com/Barsch2006'
+            }
+        ],
         title: 'ATec-Eventplaner',
         description: 'Ein Veranstaltungsplaner für die ATec unserer Schule. Man kann Veranstaltungen anmelden und als Administrator managen.',
         frameworks: ['Node.js', 'HTML/CSS', 'JavaScript'],
@@ -69,9 +106,20 @@ const projects: IProjectsPreview[] = [
         ]
     },
     {
+        id: 2,
+        contributors: [
+            {
+                name: 'heeecker',
+                url: 'https://github.com/filip326'
+            },
+            {
+                name: 'Christian.sh',
+                url: 'https://github.com/Barsch2006'
+            }
+        ],
         title: 'DolphinSchool-Client',
-        description: 'A school management system (Web Client)',
-        frameworks: ['Node.js', 'TypeScript', 'Vue.js', 'Vuetify'],
+        description: 'A school management system (Client)',
+        frameworks: ['Vue.js', 'Vuetify', 'Node.js', 'TypeScript'],
         finished: false,
         moreInfo: [
             {
@@ -85,10 +133,20 @@ const projects: IProjectsPreview[] = [
         ]
     },
     {
+        id: 3,
+        contributors: [
+            {
+                name: 'heeecker',
+                url: 'https://github.com/filip326'
+            },
+            {
+                name: 'Christian.sh',
+                url: 'https://github.com/Barsch2006'
+            }
+        ],
         title: 'DolphinSchool-Server',
         description: 'A school management system (Server)',
         frameworks: ['Express.js', 'Node.js', 'MongoDB', 'TypeScript'],
-        url: 'https://github.com/filip326/DolphinSchool-Server',
         finished: false,
         moreInfo: [
             {
@@ -99,6 +157,29 @@ const projects: IProjectsPreview[] = [
                 text: 'Something better than edunite and LANiS, We hope.',
                 type: 'text'
             }
+        ]
+    },
+    {
+        id: 4,
+        contributors: [
+            {
+                name: 'heeecker',
+                url: 'https://github.com/filip326'
+            },
+            {
+                name: 'Christian.sh',
+                url: 'https://github.com/Barsch2006'
+            }
+        ],
+        title: 'prowo-algo-2023',
+        description: 'Algorythm to sort students into their projects for the prowo 2023',
+        frameworks: ['Python'],
+        finished: false,
+        moreInfo: [
+            {
+                text: 'Algorythm to sort students into their projects for the prowo 2023',
+                type: 'text'
+            },
         ]
     }
 ];
