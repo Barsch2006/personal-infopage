@@ -31,6 +31,23 @@ export default {
 
 <style scoped>
 .v-card {
-    padding: 20px;
+    padding: 16px 10px;
+}
+
+.v-card-title,
+.v-card-subtitle,
+* {
+    white-space: normal;
+}
+
+.v-card-subtitle {
+    margin-top: -14px;
+    font-size: 1em;
+}
+
+article,
+div,
+nav {
+    margin-bottom: 10px;
 }
 </style>
