@@ -22,7 +22,14 @@ export default {
                     01.01.2023
                 </v-card-subtitle>
                 <v-card-text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eos.
+                    <article>
+                        <h3>
+                            Subtitle
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eos.
+                        </p>
+                    </article>
                 </v-card-text>
             </v-card>
         </v-list-item> -->
@@ -30,6 +37,10 @@ export default {
 </template>
 
 <style scoped>
+h3 {
+    color: #10c906;
+}
+
 .v-card {
     padding: 16px 10px;
 }
@@ -43,6 +54,15 @@ export default {
 .v-card-subtitle {
     margin-top: -14px;
     font-size: 1em;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+li p {
+    padding-left: 40px;
 }
 
 article,
